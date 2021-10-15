@@ -6,6 +6,10 @@ import videoImg from "../assets/images/resource/featured-image-1.jpg";
 import TeamCard from "../components/TeamCard";
 import ActionBanner from "../components/ActionBanner";
 
+import people1 from "../assets/images/about/about-1.jpeg";
+import people2 from "../assets/images/about/about-2.jpeg";
+import people3 from "../assets/images/about/about-3.jpeg";
+
 function About() {
   return (
     <>
@@ -38,9 +42,9 @@ function About() {
           <div class="row clearfix">
             {/* <!--Text Column --> */}
             <div class="column text-column col-md-6 col-sm-12 col-xs-12">
-              <h2>
-                We Have The Right Products to Fit Your Needs and Budget
-                <a href="#">Purchase - Decorators.</a>
+              <h2 className="">
+                We Have The Right Products to Fit Your Needs and Budget &nbsp;
+                <a href="#">Purchase - Make Home</a>
               </h2>
               <div class="inner-box">
                 <div class="text">
@@ -52,15 +56,7 @@ function About() {
                   praising of human happiness one seds rejects, dislikes, or
                   avoids pleasures itself
                 </div>
-                <div class="signature-image">
-                  <img src={signImg} alt="signature" />
-                </div>
-                <div class="about-owner">
-                  <h4>
-                    William Shocks, <span class="designation">Founder</span>
-                  </h4>
-                  <div class="company-title">Decorators.</div>
-                </div>
+
               </div>
             </div>
 
@@ -71,17 +67,15 @@ function About() {
                 data-wow-delay="0ms"
                 data-wow-duration="1500ms"
               >
-                <figure class="image-box video-box">
-                  <img src={videoImg} alt="video thumbnail" />
-                  <a
-                    href="https://www.youtube.com/watch?v=OrJKD11Rmdg"
-                    class="lightbox-image video-link"
-                  >
-                    <div class="icon">
-                      <span class="flaticon-play-button-5"></span>
-                    </div>
-                  </a>
-                </figure>
+                <div className="row">
+                  <div className="col-md-6">
+                    <img className="ab-image-sm" src={people2}></img>
+                    <img className="ab-image-sm" src={people3}></img>
+                  </div>
+                  <div className="col-md-6">
+                    <img className="ab-image-lg" src={people1}></img>
+                  </div>
+                </div>
               </article>
             </div>
           </div>

@@ -5,8 +5,8 @@ import Logo from "../assets/images/logo.png";
 function Navbar() {
   return (
     <header className="main-header">
-      <div className="col-sm-12">
-        <p>Contact US on 7556778645</p>
+      <div className="container ">
+        <p className="info-bar">Contact US on : +91 9693222426 | Email: mdsaifullah657@gmail.com</p>
       </div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">

@@ -1,4 +1,5 @@
 import React from "react";
+import '../../assets/css/property.css';
 import PropertySlider from "../../components/PropertySlider";
 
 import CardBg from "../../assets/images/property/bg-shape-1.svg";
