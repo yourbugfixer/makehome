@@ -7,33 +7,21 @@ function Footer() {
       <div class="footer-bottom">
         <div class="auto-container">
           <div class="clearfix">
-            <div class="pull-left">
+            <div class="text-center">
               <div class="copyright">
                 Copyrights &copy; 2021 All Rights Reserved by &ensp;
                 <a
                   target="_blank"
-                  href="https://yourbugfixers.com"
+                  href="https://websitename.com"
                   class="styled-font author-name"
                 >
-                  yourbugfixers
+                  website Name
                 </a>
+                <div class="clearfix"></div>
+                Built by: &nbsp;
+                <a target="-blank" href="https://wwww.yourbugfixers.com" className="styled-font text-white-50">yourbugfixers.com</a>
               </div>
-            </div>
-            <div class="pull-right">
-              <ul class="footer-nav">
-                <li>
-                  <a href="#">Home</a>
-                </li>
-                <li>
-                  <a href="#">About</a>
-                </li>
-                <li>
-                  <a href="#">Services</a>
-                </li>
-                <li>
-                  <a href="#">Contact</a>
-                </li>
-              </ul>
+
             </div>
           </div>
         </div>

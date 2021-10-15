@@ -9,7 +9,7 @@ function interiorDesign() {
   return (
     <>
       {/* <!--Page Title--> */}
-      <PageTitle title="Our Services" />
+      <PageTitle title="Interior Design" />
 
       {/* <!--Page Info--> */}
       <section class="page-info">

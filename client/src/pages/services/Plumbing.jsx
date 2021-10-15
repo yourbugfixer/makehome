@@ -9,7 +9,7 @@ function Plumbing() {
   return (
     <>
       {/* <!--Page Title--> */}
-      <PageTitle title="Our Services" />
+      <PageTitle title="Sanitary" />
 
       {/* <!--Page Info--> */}
       <section class="page-info">

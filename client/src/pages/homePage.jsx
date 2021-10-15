@@ -24,10 +24,10 @@ function homePage() {
                 data-wow-delay="0ms"
                 data-wow-duration="1500ms"
               >
-                <h2>Welcome to Decorators</h2>
+                <h2>Welcome to Make Home</h2>
                 <h3>
-                  We Have The Right Products to Fit Your Needs and Budget
-                  <span>Purchase - Decorators.</span>
+                  We Have The Right Products to Fit Your Needs and Budget &nbsp;
+                  <span>Purchase - Make Home.</span>
                 </h3>
 
                 <div className="text">
@@ -162,7 +162,7 @@ function homePage() {
                 data-aos-duration="1000"
               >
                 <div className="icon">
-                  <span className="flaticon-house-1"></span>
+                  <span className="fas fa-sink"></span>
                 </div>
                 <div className="text">
                   <h2>Sanitary Work</h2>
@@ -185,7 +185,7 @@ function homePage() {
                 data-aos-duration="1000"
               >
                 <div className="icon">
-                  <span className="flaticon-engineer"></span>
+                  <span className="fas fa-building"></span>
                 </div>
                 <div className="text">
                   <h2>Real Estate Services</h2>
